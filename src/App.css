@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
-}
+  text-align: center; 
+  
+ }
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +12,14 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+
+
+
+.body{
+  background-image: url('./rocket.jpg');
+  background-size: 100% 100%;
 }
 
 .App-header {
@@ -35,4 +44,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  /* height: 100vh; */
+  overflow: hidden;
 }

@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+}
+
+.LaunchList {
+    height: 100vh;
+    overflow: hidden auto;
+    width: 20vmax;
+    scrollbar-darkshadow-color: rgb(61, 60, 60);
+    scrollbar-face-color: rgb(104, 99, 99);
+    scrollbar-track-color: rgb(146, 81, 81);
+  }
